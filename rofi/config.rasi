@@ -1,0 +1,5 @@
+configuration {
+  icon-theme:          "Qogir";
+  theme:              "/home/daniel/.config/rofi/launchers/text/style_2.rasi";
+  columns: 2;
+}

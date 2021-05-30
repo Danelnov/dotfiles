@@ -78,7 +78,6 @@ let g:airline_theme='minimalist'
 " ===============Coc Vim================== 
 command! -nargs=0 Format :call CocAction('format')
 
-
 " ================================ATAJOS DE TECLADO======================
 let g:mapleader = ' '  " Definir espacio como la tecla líder
 

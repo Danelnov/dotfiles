@@ -1,4 +1,4 @@
 # dotfiles
 
-![](./images/image1.png)
-![](./images/image2.png)
+![](./assets/1.png)
+![](./assets/2.png)

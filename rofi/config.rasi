@@ -1,5 +1,5 @@
 configuration {
-  icon-theme:          "Qogir";
-  theme:              "/home/daniel/.config/rofi/launchers/text/style_2.rasi";
-  columns: 2;
+    modi:"window,run,ssh,drun";
+    /* Name of theme file*/
+    theme: "moody_rose";
 }

@@ -1,0 +1,92 @@
+/* Initial configuration settings*/
+configuration{
+
+    /* show icons and set icon theme */
+    show-icons: true;
+    icon-theme: "Papirus-Dark";   
+
+    /* setting up fonts */
+    font:"Mononoki NF 12";
+    display-drun: "Apps";
+}
+
+/* importing color palette from color palette file */
+@import "palette.rasi"
+
+window{
+    location:center;
+    anchor:center;
+    background-color: @background-main;
+    width:30%;
+    transparency:"real";
+    opacity: 0.95;
+    border-radius: 6px;
+}
+
+/* box containing searchbox and results list */
+mainbox{
+    padding:0;
+    background-color:inherit;
+}
+
+/* box containing prompt and search bar */
+inputbar{
+    background-color: inherit;
+}
+
+/* prompt for search box */
+prompt{
+    enabled:false;
+    vertical-align: 0.5;
+    padding: 0px 30px;
+    background-color: @background-accent;
+}
+
+/* search box */
+entry{
+    padding:15px;
+    placeholder:"Search for applications";
+    placeholder-color:@text-light;
+    color:white;
+    background-color: @background-light;
+    vertical-align:0.5;
+}
+
+/* list items which contain the search results  */
+listview{
+    background-color: @background-main;
+    lines:6;
+    columns: 1;
+    fixed-columns:true;
+}
+
+/* small indicator after search bar  */
+case-indicator{
+    enabled: false;
+}
+
+/* individual items in search results */
+element{
+    background-color: inherit;
+    color:@text-main;
+    padding:10px 20px;
+    orientation:horizontal;
+}
+
+element-icon{
+    size:32px;
+}
+
+element-text{
+    horizontal-align:0;
+    vertial-align:1;
+}
+
+element selected{
+    background-color:@background-accent;
+}
+
+error-message{
+    background-color: inherit;
+    color:@highlight-main;
+}

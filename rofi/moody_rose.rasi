@@ -3,7 +3,7 @@ configuration{
 
     /* show icons and set icon theme */
     show-icons: true;
-    icon-theme: "Papirus-Dark";   
+    icon-theme: "Qogir";   
 
     /* setting up fonts */
     font:"Mononoki NF 12";

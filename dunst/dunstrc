@@ -2,13 +2,13 @@
 
     monitor = 0
     follow = mouse
-    geometry = "340x200-10+35"
+    geometry = "340x200-17+45"
     indicate_hidden = yes
     shrink = no
     transparency = 0 
     notification_height = 0
     separator_height = 0
-    padding = 20
+    padding = 15
     horizontal_padding = 30
     frame_width = 0
     frame_color = "#aaaaaa"
@@ -21,7 +21,7 @@
     font = Playfair Display 10
     line_height = 0
     markup = full
-    format = "<b>%s</b><span font='Libre Baskerville 10' foreground='#7D7D7D'>%b</span>"
+    format = "<b>%s</b>\n<span font='Libre Baskerville 10' foreground='#7D7D7D'>%b</span>"
     alignment = left
     vertical_alignment = center
     show_age_threshold = 60
